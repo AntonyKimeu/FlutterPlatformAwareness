@@ -26,8 +26,8 @@ before_deploy:
   deploy:
   provider: releases
   api_key:
-    secure: #your api key will be here
+    secure: 6aJGlV-W_q5V3ICFMtZWlA
   file: build/ios/iphoneos/app.ipa
   skip_cleanup: true #important or your built app would be deleted
   on:
-    repo: #your repo will be here
+    repo: FlutterPlatformAwareness
